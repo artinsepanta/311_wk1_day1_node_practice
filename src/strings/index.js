@@ -1,10 +1,10 @@
 const split = (str, delim) => {
-  // write code for strings.split
-
+  const delim=str.split(" ")
+  console.log(delim[3])
 }
 
 const pairs = (str) => {
-  // write code for strings.pairs
+ 
 
 }
 
