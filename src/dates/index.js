@@ -7,13 +7,13 @@ const today = () => {
 
 
 //Return the current date in the format: May 29, 2019
-// Hint: moment().format(?)
+
 const calendar = () => {
   console.log(moment({Y   :2019, M:   "May",  d:  29}).format('MM-DD-YYYY'))
 }
 
 const currentTime = () => {
-  return moment().format(" h:mm:ss");
+  return moment().format(" h:mm:ss A");
   
 }
 
